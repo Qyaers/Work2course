@@ -1,0 +1,57 @@
+
+#logplase {
+  width: 20%;
+  height: 35%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 20%;
+  background: silver;
+  overflow: hidden; /* clearfix */
+}
+#logplase:before {
+ 
+  margin-top: 50%;	
+  
+  float: left;
+}
+
+#formlog{
+	float:center;
+	font-family: TimesNewRoman;
+	padding: 10 0 0px;
+	position:relative;
+}
+#text {
+    text-align:  center;
+}
+/* попытка*/
+@media screen,projection {
+   
+/* общий блок */
+body
+    {...}
+img
+    {border-width: 0px;
+     max-width:100%;
+     height:auto;
+    }
+ 
+Table
+{
+    border-style: none;
+    border-collapse: collapse;
+}
+ 
+}
+/* Small Devices, Tablets  800px */
+@media screen and (max-width:800px) {
+/* в этих блоках не обязательно повторять все стили. Надо только те которые должны изменится при ширине экрана меньше 800px */
+}
+ 
+@media screen and (max-width:570px) {
+ 
+}
+ 
+/* Extra Small Devices, Phones */
+@media screen and (max-width:480px) {
+  }

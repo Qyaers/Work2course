@@ -1,0 +1,147 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-family: TimesNewRoman;
+	font-size:12px;
+}
+#container {
+            
+            margin: 0px auto;
+            width: 100%;
+            height: 100%;
+}
+#head{
+	width:100%;
+	height:15%;
+	position:relative;
+	text-align:center;
+	background: url(https://html5book.ru/wp-content/uploads/2015/10/background54.png);
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+#Menu{
+	float:right;
+	width:10%;
+	height:80%;
+	background-color:white;
+	background-attachment:fixed;
+	position:relative;
+}
+
+#content{
+
+	float:center;
+	width:50%;
+	margin-top:-0%;
+	margin-left: 25%;
+	margin-right: 25%;
+	background: url(https://html5book.ru/wp-content/uploads/2015/10/background54.png);
+	position:relative;
+	text-indent: 20px;
+	
+	
+}
+#clear {
+            clear:both;
+	
+		
+}
+#footer{
+  position: scroll;
+  background-color: white;
+  float:center;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  padding: 10px;
+  width:100%;
+	
+}
+}
+.content_text{
+	font-family: TimesNewRoman;
+	font-size: 14pt sans-serif;
+}
+{ box-sizing: border-box; }
+body {
+  margin: 0;
+  background: url(https://html5book.ru/wp-content/uploads/2015/10/background54.png)
+}
+nav { background: white; }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .4s ease-in-out;
+}
+.topmenu {
+  text-align: center;
+  padding: 10px 0;
+}
+.topmenu > li {
+  
+  position: relative;
+}
+.topmenu > li:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 12px;
+  background: #d2d2d2;
+  top: 16px;
+
+}
+.topmenu > li:last-child:after {
+  background: none;
+  box-shadow: none;
+}
+.topmenu > li > a {
+  padding: 12px 26px;
+  color: #767676;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Exo 2', sans-serif;
+}
+.margin-top{
+margin-top: 20%;
+}
+.topmenu li a:hover { color: #c0a97a; }
+.submenu {
+  position: relative;
+  left: 50%;
+  top: 100%;
+  width: 200px;
+  margin-left: -50%;
+  background: #fafafa;
+  border: 1px solid #ededed;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.8);
+  transition: .4s ease-in-out;
+}
+.submenu li a {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px solid #efefef;
+  font-size: 12px;
+  color: #484848;
+  font-family: 'Kurale', serif;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}

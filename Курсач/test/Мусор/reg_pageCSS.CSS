@@ -1,0 +1,17 @@
+body { width: 100%; height: 100%; padding:0; margin: 0; }
+#logplase {
+  width: 100%;
+  height: 100%;
+  
+  background: silver;
+  overflow: hidden; /* clearfix */
+  position:scroll;
+}
+#formlog{
+	font-family: TimesNewRoman;
+	padding: 10 0 0px;
+	position:relative;
+}
+#text {
+    text-align:  center;
+}
